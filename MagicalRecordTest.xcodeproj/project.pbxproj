@@ -1,0 +1,392 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC8128C51CCF44D80086C214 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CC8128C41CCF44D80086C214 /* main.m */; };
+		CC8128C81CCF44D80086C214 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CC8128C71CCF44D80086C214 /* AppDelegate.m */; };
+		CC8128CB1CCF44D80086C214 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC8128CA1CCF44D80086C214 /* ViewController.m */; };
+		CC8128CE1CCF44D80086C214 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC8128CC1CCF44D80086C214 /* Main.storyboard */; };
+		CC8128D01CCF44D80086C214 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC8128CF1CCF44D80086C214 /* Assets.xcassets */; };
+		CC8128D31CCF44D80086C214 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC8128D11CCF44D80086C214 /* LaunchScreen.storyboard */; };
+		CC8128DB1CCF44F00086C214 /* MagicalRecord.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC8128DA1CCF44F00086C214 /* MagicalRecord.framework */; };
+		CC8128DC1CCF45AE0086C214 /* MagicalRecord.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC8128DA1CCF44F00086C214 /* MagicalRecord.framework */; };
+		CC8128DD1CCF45AE0086C214 /* MagicalRecord.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CC8128DA1CCF44F00086C214 /* MagicalRecord.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		CC8128E11CCF47E60086C214 /* BeerModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CC8128DF1CCF47E60086C214 /* BeerModel.xcdatamodeld */; };
+		CC8128EA1CCF48C40086C214 /* Beer+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = CC8128E31CCF48C40086C214 /* Beer+CoreDataProperties.m */; };
+		CC8128EB1CCF48C40086C214 /* Beer.m in Sources */ = {isa = PBXBuildFile; fileRef = CC8128E51CCF48C40086C214 /* Beer.m */; };
+		CC8128EC1CCF48C40086C214 /* BeerDetails+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = CC8128E71CCF48C40086C214 /* BeerDetails+CoreDataProperties.m */; };
+		CC8128ED1CCF48C40086C214 /* BeerDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = CC8128E91CCF48C40086C214 /* BeerDetails.m */; };
+		CC8128EF1CCF492F0086C214 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC8128EE1CCF492F0086C214 /* CoreData.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CC8128DE1CCF45AE0086C214 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				CC8128DD1CCF45AE0086C214 /* MagicalRecord.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CC8128C01CCF44D80086C214 /* MagicalRecordTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MagicalRecordTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC8128C41CCF44D80086C214 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CC8128C61CCF44D80086C214 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CC8128C71CCF44D80086C214 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CC8128C91CCF44D80086C214 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CC8128CA1CCF44D80086C214 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CC8128CD1CCF44D80086C214 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CC8128CF1CCF44D80086C214 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CC8128D21CCF44D80086C214 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CC8128D41CCF44D80086C214 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC8128DA1CCF44F00086C214 /* MagicalRecord.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MagicalRecord.framework; sourceTree = "<group>"; };
+		CC8128E01CCF47E60086C214 /* BeerModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BeerModel.xcdatamodel; sourceTree = "<group>"; };
+		CC8128E21CCF48C40086C214 /* Beer+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Beer+CoreDataProperties.h"; sourceTree = "<group>"; };
+		CC8128E31CCF48C40086C214 /* Beer+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Beer+CoreDataProperties.m"; sourceTree = "<group>"; };
+		CC8128E41CCF48C40086C214 /* Beer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Beer.h; sourceTree = "<group>"; };
+		CC8128E51CCF48C40086C214 /* Beer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Beer.m; sourceTree = "<group>"; };
+		CC8128E61CCF48C40086C214 /* BeerDetails+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BeerDetails+CoreDataProperties.h"; sourceTree = "<group>"; };
+		CC8128E71CCF48C40086C214 /* BeerDetails+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "BeerDetails+CoreDataProperties.m"; sourceTree = "<group>"; };
+		CC8128E81CCF48C40086C214 /* BeerDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeerDetails.h; sourceTree = "<group>"; };
+		CC8128E91CCF48C40086C214 /* BeerDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BeerDetails.m; sourceTree = "<group>"; };
+		CC8128EE1CCF492F0086C214 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC8128BD1CCF44D80086C214 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC8128EF1CCF492F0086C214 /* CoreData.framework in Frameworks */,
+				CC8128DC1CCF45AE0086C214 /* MagicalRecord.framework in Frameworks */,
+				CC8128DB1CCF44F00086C214 /* MagicalRecord.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CC8128B71CCF44D80086C214 = {
+			isa = PBXGroup;
+			children = (
+				CC8128F01CCF4DFD0086C214 /* Models */,
+				CC8128C21CCF44D80086C214 /* MagicalRecordTest */,
+				CC8128C11CCF44D80086C214 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CC8128C11CCF44D80086C214 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC8128C01CCF44D80086C214 /* MagicalRecordTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC8128C21CCF44D80086C214 /* MagicalRecordTest */ = {
+			isa = PBXGroup;
+			children = (
+				CC8128DA1CCF44F00086C214 /* MagicalRecord.framework */,
+				CC8128C61CCF44D80086C214 /* AppDelegate.h */,
+				CC8128C71CCF44D80086C214 /* AppDelegate.m */,
+				CC8128C91CCF44D80086C214 /* ViewController.h */,
+				CC8128CA1CCF44D80086C214 /* ViewController.m */,
+				CC8128CC1CCF44D80086C214 /* Main.storyboard */,
+				CC8128CF1CCF44D80086C214 /* Assets.xcassets */,
+				CC8128D11CCF44D80086C214 /* LaunchScreen.storyboard */,
+				CC8128D41CCF44D80086C214 /* Info.plist */,
+				CC8128C31CCF44D80086C214 /* Supporting Files */,
+				CC8128DF1CCF47E60086C214 /* BeerModel.xcdatamodeld */,
+			);
+			path = MagicalRecordTest;
+			sourceTree = "<group>";
+		};
+		CC8128C31CCF44D80086C214 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CC8128C41CCF44D80086C214 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CC8128F01CCF4DFD0086C214 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CC8128EE1CCF492F0086C214 /* CoreData.framework */,
+				CC8128E21CCF48C40086C214 /* Beer+CoreDataProperties.h */,
+				CC8128E31CCF48C40086C214 /* Beer+CoreDataProperties.m */,
+				CC8128E41CCF48C40086C214 /* Beer.h */,
+				CC8128E51CCF48C40086C214 /* Beer.m */,
+				CC8128E61CCF48C40086C214 /* BeerDetails+CoreDataProperties.h */,
+				CC8128E71CCF48C40086C214 /* BeerDetails+CoreDataProperties.m */,
+				CC8128E81CCF48C40086C214 /* BeerDetails.h */,
+				CC8128E91CCF48C40086C214 /* BeerDetails.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC8128BF1CCF44D80086C214 /* MagicalRecordTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC8128D71CCF44D80086C214 /* Build configuration list for PBXNativeTarget "MagicalRecordTest" */;
+			buildPhases = (
+				CC8128BC1CCF44D80086C214 /* Sources */,
+				CC8128BD1CCF44D80086C214 /* Frameworks */,
+				CC8128BE1CCF44D80086C214 /* Resources */,
+				CC8128DE1CCF45AE0086C214 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MagicalRecordTest;
+			productName = MagicalRecordTest;
+			productReference = CC8128C01CCF44D80086C214 /* MagicalRecordTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC8128B81CCF44D80086C214 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Mag1cPanda;
+				TargetAttributes = {
+					CC8128BF1CCF44D80086C214 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = CC8128BB1CCF44D80086C214 /* Build configuration list for PBXProject "MagicalRecordTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CC8128B71CCF44D80086C214;
+			productRefGroup = CC8128C11CCF44D80086C214 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC8128BF1CCF44D80086C214 /* MagicalRecordTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC8128BE1CCF44D80086C214 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC8128D31CCF44D80086C214 /* LaunchScreen.storyboard in Resources */,
+				CC8128D01CCF44D80086C214 /* Assets.xcassets in Resources */,
+				CC8128CE1CCF44D80086C214 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC8128BC1CCF44D80086C214 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC8128CB1CCF44D80086C214 /* ViewController.m in Sources */,
+				CC8128E11CCF47E60086C214 /* BeerModel.xcdatamodeld in Sources */,
+				CC8128EC1CCF48C40086C214 /* BeerDetails+CoreDataProperties.m in Sources */,
+				CC8128EA1CCF48C40086C214 /* Beer+CoreDataProperties.m in Sources */,
+				CC8128ED1CCF48C40086C214 /* BeerDetails.m in Sources */,
+				CC8128EB1CCF48C40086C214 /* Beer.m in Sources */,
+				CC8128C81CCF44D80086C214 /* AppDelegate.m in Sources */,
+				CC8128C51CCF44D80086C214 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CC8128CC1CCF44D80086C214 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC8128CD1CCF44D80086C214 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CC8128D11CCF44D80086C214 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC8128D21CCF44D80086C214 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CC8128D51CCF44D80086C214 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CC8128D61CCF44D80086C214 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CC8128D81CCF44D80086C214 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MagicalRecordTest",
+				);
+				INFOPLIST_FILE = MagicalRecordTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Mag1cPanda.MagicalRecordTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WARNING_CFLAGS = "-Wno-incomplete-umbrella";
+			};
+			name = Debug;
+		};
+		CC8128D91CCF44D80086C214 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MagicalRecordTest",
+				);
+				INFOPLIST_FILE = MagicalRecordTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Mag1cPanda.MagicalRecordTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WARNING_CFLAGS = "-Wno-incomplete-umbrella";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC8128BB1CCF44D80086C214 /* Build configuration list for PBXProject "MagicalRecordTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC8128D51CCF44D80086C214 /* Debug */,
+				CC8128D61CCF44D80086C214 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC8128D71CCF44D80086C214 /* Build configuration list for PBXNativeTarget "MagicalRecordTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC8128D81CCF44D80086C214 /* Debug */,
+				CC8128D91CCF44D80086C214 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CC8128DF1CCF47E60086C214 /* BeerModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CC8128E01CCF47E60086C214 /* BeerModel.xcdatamodel */,
+			);
+			currentVersion = CC8128E01CCF47E60086C214 /* BeerModel.xcdatamodel */;
+			path = BeerModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CC8128B81CCF44D80086C214 /* Project object */;
+}
