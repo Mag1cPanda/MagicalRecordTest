@@ -23,8 +23,7 @@
 
 * 增
 
-```
-
+```objc
 -(void)creatData {
     Beer *beer = [Beer MR_createEntity];
     beer.name = @"XXXX";
@@ -47,7 +46,7 @@
 
 * 删
 
-```
+```objc
 -(void)deleteData {
     NSArray *personArr = [Beer MR_findByAttribute:@"name" withValue:@"Fort"];
     
@@ -61,7 +60,7 @@
 
 * 改
 
-```
+```objc
 -(void)updateData {
     NSArray *personArr = [Beer MR_findByAttribute:@"name" withValue:@"aslo"];
     
@@ -74,7 +73,7 @@
 
 * 查
 
-```
+```objc
 -(void)findData {
     //查找数据库中所有的数据
     NSArray *beerArr = [Beer MR_findAll];
