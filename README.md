@@ -24,6 +24,7 @@
 * 增
 
 ```objc
+#define DefaultContext [NSManagedObjectContext MR_defaultContext]
 -(void)creatData {
     Beer *beer = [Beer MR_createEntity];
     beer.name = @"XXXX";
